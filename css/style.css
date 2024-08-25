@@ -8,6 +8,8 @@ body p{
 h1{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+    
 }
 #inscrevase {
     width: 200px;
@@ -28,17 +30,19 @@ border-radius:100%;
 box-shadow: 5px 5px 3px rgb(46, 46, 46);
 }
 div img{
-    width: 500px;
-    right: 520px;
+    width: min(500px, 50vw);
     box-shadow: 8px 8px 8px black;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin: 0px auto;
+    margin-left: 50px;
+   
 }
 .flex div{
-    flex: 1px 1px 200px;
+    flex: 1px 1px 100px;
     margin: 10px 10px;
 }
 /*------------------------------------------------------*/
